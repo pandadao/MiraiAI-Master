@@ -40,7 +40,7 @@
 	 G0DzS0ldiers Contact:
 	 	 Email: miraipots@riseup.net
 	 	 Website(s): miraipots.leakedfiles.org
-	 				exploit.leakedfiles.org
+	 				godz-soldiers.xyz
 
 	 Drought Contact:
 	 	 Email: N/A
