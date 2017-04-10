@@ -48,6 +48,11 @@ time.sleep(4)
 print("                 \x1b[36mUpdating & Upgrading system \x1b[0m")
 time.sleep(4)
 
+def run(cmd):                                                  
+    subprocess.call(cmd, shell=True)
+
+ip = os.popen("curl -s http://checkip.dyndns.org/").read()
+
 '''
 ━━━━━━━━━━━━━━━━━━━━━━━━
 Updating/upgraing system
