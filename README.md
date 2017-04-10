@@ -6,6 +6,9 @@
                                      ██║╚██╔╝██║██║██╔══██╗██╔══██║██║    ██╔══██║██║ 
                                      ██║ ╚═╝ ██║██║██║  ██║██║  ██║██║    ██║  ██║██║ 
                                      ╚═╝     ╚═╝╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝    ╚═╝  ╚═╝╚═╝
+				     
+				     
+				     
 # 0x01 - [ Introduction ]
 
 		   MiraiAI became a thing when I uploaded a video to youtube about setting up "Mirai Botnet". Ever since I published that video
